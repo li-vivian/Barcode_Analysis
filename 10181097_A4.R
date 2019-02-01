@@ -16,7 +16,7 @@ rbcLseq<-sangerseq(rbcL)
 SeqX<-makeBaseCalls(rbcLseq) 
 
 
-# 2. Use regular expressions to slice, paste and extract the 'Primary sequnece' only 
+# 2. Use regular expressions to slice, paste and extract the 'Primary sequnece' only. 
 primaryseq<-SeqX@primarySeq
 paste(primaryseq)
 
